@@ -4,7 +4,71 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About Me - My Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    section img {
+      display: block;
+      margin: 20px auto;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 3px solid #333;
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #333;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -18,9 +82,28 @@
 
   <section>
     <h1>About Me</h1>
-    <p>A brief introduction about myself, my background, skills, and passions.</p>
-    <!-- Students can add more personal details here -->
+    <p>Hello! My name is John Doe, and I am passionate about technology, learning, and creative problem-solving. This page gives you a closer look at who I am, what I do, and where I want to go.</p>
+
+    <h2>Background & Education</h2>
+    <p>I studied Computer Science at XYZ University, where I built a strong foundation in programming, software design, and problem-solving. My journey into technology began in high school, where I developed a deep interest in coding and web development.</p>
+
+    <h2>Skills & Technologies</h2>
+    <p>Over the years, I have gained hands-on experience with several programming languages and frameworks. Some of my key skills include:</p>
+    <ul>
+      <li>Programming Languages: Python, JavaScript, C++</li>
+      <li>Web Development: HTML, CSS, React</li>
+      <li>Databases: MySQL, MongoDB</li>
+      <li>Tools & Platforms: Git, GitHub, VS Code</li>
+    </ul>
+
+    <h2>Hobbies, Passions & Career Goals</h2>
+    <p>Outside of coding, I enjoy photography, reading about emerging technologies, and playing football. I am passionate about solving real-world problems with software and aspire to work as a software engineer, focusing on building scalable applications and contributing to open-source projects.</p>
+
+    <img src="https://via.placeholder.com/200" alt="Profile photo of John Doe" />
   </section>
 
+  <footer>
+    © 2025 My Portfolio
+  </footer>
 </body>
 </html>
